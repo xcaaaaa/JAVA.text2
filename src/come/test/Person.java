@@ -16,9 +16,9 @@ public class Person {
     }
  public Person(String name,int age){
         //构造方法,方法名与类名相同，相当于c++中的构造函数,当一个类中有多个构造方法时，可以用this()调用想要的方法，但是只可以调用一次
-    this.name=name;//可以进行初始化
-    this.age=age;
+    //可以进行初始化
 }
+
 public static void test(){}
     //静态方法不可一访问对象特有的东西，但可以访问静态变量与c++差不多
 }
